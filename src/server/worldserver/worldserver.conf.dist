@@ -104,7 +104,7 @@ RealmID = 1
 #        Example:     "@prefix@/share/skyfire"
 #        Default:     "."
 
-DataDir = "Data"
+DataDir = "."
 
 #
 #    LogsDir
@@ -1178,6 +1178,14 @@ ClientCacheVersion = 0
 #                     1 - (Enabled)
 
 Event.Announce = 1
+
+#
+#    FlashAtStart
+#        Description: Flashes in taskbar when the world server finished starting. (Works on Windows only)
+#        Default:     1 - (Enabled)
+#                     0 - (Disabled)
+
+FlashAtStart = 1
 
 #
 #    BeepAtStart
@@ -2440,7 +2448,7 @@ Arena.ArenaStartMatchmakerRating = 1500
 #                     1 - (Enabled)
 
 ArenaLog.ExtendedInfo = 0
-
+Arena.SeasonReward.Cleanup.Enabled = 1
 #
 ###################################################################################################
 
